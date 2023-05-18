@@ -1,0 +1,28 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Apple Frangipan Tart",
+      "image": "https://www.themealdb.com/images/media/meals/wxywrq1468235067.jpg",
+      "category": "Dessert"
+    },
+    {
+      "id": 2,
+      "name": "Apple & Blackberry Crumble",
+      "image": "https://www.themealdb.com/images/media/meals/xvsurr1511719182.jpg",
+      "category": "Dessert"
+    },
+    {
+      "id": 3,
+      "name": "Beef Brisket Pot Roast",
+      "image": "https://www.themealdb.com/images/media/meals/ursuup1487348423.jpg",
+      "category": "Main Dish"
+    },
+    {
+      "id": 4,
+      "name": "Dal fry",
+      "image": "https://www.themealdb.com/images/media/meals/wuxrtu1483564410.jpg",
+      "category": "Soup"
+    }
+  ]
+}

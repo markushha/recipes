@@ -16,7 +16,7 @@ function Navbar() {
         <div className="ml-auto flex items-center justify-center">
           <Popover>
             <PopoverTrigger>
-              <MdFavorite />
+              <MdFavorite size={24} />
             </PopoverTrigger>
             <PopoverContent>
               <div className="flex flex-col items-center justify-center w-80">
@@ -25,7 +25,7 @@ function Navbar() {
                 </h2>
                 {favourites.map((favourite: Recipe) => (
                   <div className="mt-2 text-slate-500 font-medium">
-                    {favourite.title}
+                    {favourite.name}
                   </div>
                 ))}
               </div>
