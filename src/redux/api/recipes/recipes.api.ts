@@ -17,8 +17,15 @@ const recipesApi = client.injectEndpoints({
         method: 'POST',
       }),
       invalidatesTags: ['Recipe'],
+    }),
+    deleteRecipe: builder.mutation<any, any>({
+      query: (id) => ({
+        url: `recipes/${id}`,
+        method: 'DELETE',
+      }),
+      invalidatesTags: ['Recipe'],
     })
   })
 })
 
-export const { useGetRecipesQuery, useCreateRecipeMutation } = recipesApi
+export const { useGetRecipesQuery, useCreateRecipeMutation, useDeleteRecipeMutation } = recipesApi

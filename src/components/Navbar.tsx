@@ -101,7 +101,7 @@ function Navbar() {
                 />
               </div>
               <DialogFooter>
-                <Button onClick={addRecipe} type="submit">
+                <Button variant="outline" onClick={addRecipe} type="submit">
                   Add new recipe
                 </Button>
               </DialogFooter>
